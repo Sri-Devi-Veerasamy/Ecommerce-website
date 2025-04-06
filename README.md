@@ -10,7 +10,8 @@ This project focuses on recreating a modern, responsive e-commerce website desig
 ## 📸 Screenshots
 *(Insert project screenshots here)*  
 Example:  
-![Home Page](path-to-your-screenshot/home-page.png)  
+![Home Page](https://github.com/user-attachments/assets/d8147175-166a-47bc-8ec9-0b4e31267fea)
+)  
 
 
 ## 💻 Tech Stack
