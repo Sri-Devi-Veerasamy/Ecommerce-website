@@ -1,0 +1,440 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif, poppins;
+}
+
+.header {
+	margin-top: 0px;
+	display: flex;
+	align-items: center;
+	background-color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	justify-content: space-between;
+	height: 100px;
+
+}
+
+.home {
+	color: #FB5870;
+}
+
+.navText {
+	font-size: 16px;
+	font-weight: 500;
+	color: #002c3e;
+}
+
+.navText:hover {
+	color: hsl(0, 92%, 65%);
+	font-size: medium;
+	font-weight: bold;
+}
+
+.container {
+	height: 500px;
+	width: 100%;
+	background-image: url(../Images/slider-bg.jpg);
+	padding-left: 60px;
+	background-size: cover;
+
+
+}
+
+.saleText {
+	font-size: 4.5rem;
+	font-weight: bold;
+	margin-bottom: 15px;
+	color: #ec0707;
+	line-height: 70px;
+	padding-top: 80px;
+	margin-left: 40px;
+	/* margin-top: 100px; */
+
+}
+
+.saleText1 {
+
+	font-size: 4.5rem;
+	font-weight: bold;
+	margin-bottom: 15px;
+	color: #002c3e;
+	line-height: 70px;
+	margin-left: 40px;
+
+}
+
+.container h4 {
+	margin-left: 30px;
+	margin-top: 30px;
+	margin-left: 50px;
+
+}
+
+.button1 {
+	border: none;
+	text-align: center;
+	font-size: 16px;
+	background-color:rgb(233, 30, 30);
+	margin: 5px 3px;
+	color: white;
+	padding: 18px 34px;
+	font-weight: bold;
+}
+
+.headcontainer {
+	text-align: center;
+	margin-top: 100px;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.featurescontainer {
+	display: flex;
+	gap: 60px;
+	margin-left: 10px;
+	justify-content: center;
+	margin-top: 60px;
+
+}
+
+.featurecard {
+	background-color: #002c3e;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	height: 250px;
+	width: 345px;
+	align-items: center;
+	border-radius: 5px;
+
+}
+
+.featurecard p {
+	text-align: center;
+	justify-content: center;
+	position: relative;
+	top: 40%;
+}
+
+.featurecard h3 {
+	text-align: center;
+	justify-content: center;
+	position: relative;
+	top: 40%;
+}
+
+.newarrivals {
+	background-image: url(../Images/arrival-bg.png);
+	height: 600px;
+	width: 1005;
+	background-size: cover;
+	margin-top: 80px;
+	object-fit: cover;
+	padding-top: 100px;
+	justify-items: flex-end;
+
+}
+
+.container1 {
+	text-align: center;
+	margin-top: 100px;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.productcontainer {
+	display: flex;
+	gap: 70px;
+	justify-content: center;
+	margin-top: 50px;
+
+}
+
+.products img {
+
+	height: 150px;
+	width: 150px;
+	object-fit: contain;
+
+}
+
+.products {
+	height: 250px;
+	width: 25%;
+	align-content: center;
+	justify-items: center;
+	background-color: #f7f8f9;
+	padding: 15px;
+
+}
+
+.productTextContainer {
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 15px;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+
+}
+
+
+
+.productcontainer1 {
+	display: flex;
+	gap: 70px;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.products1 img {
+
+	height: 150px;
+	width: 150px;
+	object-fit: contain;
+
+}
+
+.products1 {
+	height: 250px;
+	width: 25%;
+	align-content: center;
+	justify-items: center;
+	background-color: #f7f8f9;
+	padding: 15px;
+
+}
+
+.productTextContainer1 {
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 15px;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+} 
+.productcontainer2 {
+	display: flex;
+	gap: 70px;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.products2 img {
+
+	height: 150px;
+	width: 150px;
+	object-fit: contain;
+
+}
+
+.products2 {
+	height: 250px;
+	width: 25%;
+	align-content: center;
+	justify-items: center;
+	background-color: #f7f8f9;
+	padding: 15px;
+
+}
+
+.productTextContainer2 {
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 15px;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+.productcontainer3 {
+	display: flex;
+	gap: 70px;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.products3 img {
+
+	height: 150px;
+	width: 150px;
+	object-fit: contain;
+
+}
+
+.products3 {
+	height: 250px;
+	width: 25%;
+	align-content: center;
+	justify-items: center;
+	background-color: #f7f8f9;
+	padding: 15px;
+
+}
+
+.productTextContainer3 {
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 15px;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.button2 {
+	border: none;
+	text-align: center;
+	font-size: 16px;
+	background-color:hwb(0 14% 10%);
+	margin: 5px 3px;
+	color: white;
+	padding: 18px 34px;
+	font-weight: bold;
+	margin-top: 40px;
+	margin-left: 600px;
+}
+
+.button5 {
+	border: none;
+	text-align: center;
+	font-size: 16px;
+	background-color:hwb(0 14% 10%);
+	margin: 5px 3px;
+	color: white;
+	padding: 18px 34px;
+	font-weight: bold;
+	margin-top: 40px;
+	margin-right: 370px;
+
+}
+
+
+
+.testimonial-section {
+	text-align: center;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.text {
+	font-size: 3rem;
+	color: #333;
+	margin-bottom: 10px;
+	margin: 50px;
+	text-align: center;
+
+}
+
+.testimonial-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	background-color: #fff;
+}
+
+.arrow {
+	background-color: #f76c6c;
+	color: #fff;
+	border: none;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+
+.arrow:hover {
+	background-color: #e55d5d;
+}
+
+.testimonial {
+	text-align: center;
+	max-width: 400px;
+	margin: 0 20px;
+}
+
+.profile-pic {
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	margin-bottom: 10px;
+}
+
+
+
+.role {
+	font-size: 1rem;
+	color: #777;
+}
+
+
+.para {
+	text-align: center;
+	font-family: Montserrat, sans-serif;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	background-color: #fff;
+	border-radius: 8px;
+}
+
+.lg {
+	width: 210px;
+
+}
+.container4 {
+	background-color: rgb(246, 246, 247);
+	height: 400px;
+	width: 100%;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+.footerSection1 {
+	width: 30%;
+	height: 100%;
+	padding-left: 30px;
+	padding-top: 100px;
+	
+}
+
+.footerSection2 {
+	width: 15%;
+	height: 100%;
+	padding-top: 80px;
+	padding-left: 40px;
+}
+
+.footerSection3 {
+	width: 15%;
+	height: 100%;
+	padding-top: 80px;
+	padding-left: 30px;
+}
+
+.footerSection4 {
+	width: 35%;
+	height: 100%;
+	padding-top: 80px;
+	padding-left: 30px;
+}
+
+.footerbottom {
+	text-align: center;
+	margin-top: 20px;
+	background-color: #333;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
